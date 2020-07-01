@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  newarray = []
+  while array[|index|] do
+    newarray.push(array[|index|]**2)
+  end
+  return newarray
 end
